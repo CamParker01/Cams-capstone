@@ -114,7 +114,6 @@ class AddAttraction extends Component {
         console.log(BACKEND_URL + 'attractions/add', attraction)
         axios.post(BACKEND_URL + 'attractions/add', attraction)
         .then(res => console.log(res.data));
-        // window.location='/viewattractions'
         this.props.history.push('/viewattractions');
         console.log(attraction)
     };
@@ -139,7 +138,8 @@ class AddAttraction extends Component {
                         </div>
                         <div className="form-group">
                             <label>Website: </label>
-                            <input type='text' required 
+                            <input type='text' required
+                            target="_blank" 
                             className='form-control' 
                             value={this.state.website} onChange={this.onChangeWebsite}>
                             </input>
