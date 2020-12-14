@@ -19,7 +19,7 @@ const Attraction = (props) => {
                         <Link className='link-details' Link to={"attractions/" + props.attraction._id}>Details</Link>
                     </div>
                     <div className='website'>
-                        <a className='link-site' href={props.attraction.website}>Website</a>
+                        <a className='link-site' href={props.attraction.website} target="_blank">Website</a>
                     </div>
                 </div>
             </div>

@@ -138,8 +138,7 @@ class AddAttraction extends Component {
                         </div>
                         <div className="form-group">
                             <label>Website: </label>
-                            <input type='text' required
-                            target="_blank" 
+                            <input type='text' required 
                             className='form-control' 
                             value={this.state.website} onChange={this.onChangeWebsite}>
                             </input>
