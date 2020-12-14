@@ -9,8 +9,8 @@ import Sheadshot from '../assets/Sheadshot.jpg'
 import Rheadshot from '../assets/Rheadshot.JPG'
 import group from '../assets/group.png'
 import About2 from '../assets/About2.jpg'
-import AllNeighborhoods from '../assets/AllNeighborhoods.jpg'
-import holder1 from '../assets/holder1.jpg'
+// import AllNeighborhoods from '../assets/AllNeighborhoods.jpg'
+// import holder1 from '../assets/holder1.jpg'
 
 const About = () => {
 
