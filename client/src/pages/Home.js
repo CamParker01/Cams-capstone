@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Cards from '../components/Cards';
-import { HeroSection } from '../components/HeroSection'
+import HeroSection from '../components/HeroSection'
 import FooterHome from '../components/FooterHome'
 import { Link } from 'react-scroll'
 
